@@ -15,7 +15,7 @@ This is a simple console-based Java program designed to manage employees and the
 
 1. Clone this repository:
    ```bash
-   git clone git@github.com:isyrafzakil/employee-skill-tracker.git
+   git clone https://github.com/isyrafzakil/employee-skill-tracker.git
    cd employee-skill-tracker
    ```
 2. Compile the Java files once completed
