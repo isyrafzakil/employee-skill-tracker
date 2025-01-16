@@ -41,6 +41,9 @@ public class Main {
                         String skill = scanner.nextLine();
 
                         // TODO: Prevent duplicate skills for an employee
+                        if (employee.getSkills().contains(skill)) {
+                            System.out.println("This skill is already assigned to the employee.");
+                        } else {
                         employee.addSkill(skill);
                         System.out.println("Skill added successfully.");
                     } else {
