@@ -8,6 +8,11 @@ public class Employee {
 
     public Employee(int id, String name, String department) {
         // TODO: Add your implementation here
+         this.id = id;
+        this.name = name;
+        this.department = department;
+        this.skills = new HashSet<>();  // Initialize the skills set to an empty HashSet
+        
     }
 
     public int getId() {
@@ -28,6 +33,7 @@ public class Employee {
 
     public void addSkill(String skill) {
         // TODO: Add your implementation here
+        skills.add(skill);
     }
 
     @Override
